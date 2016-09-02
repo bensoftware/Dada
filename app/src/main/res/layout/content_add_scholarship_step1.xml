@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dada.ga.AddScholarshipStep1Activity"
+    tools:showIn="@layout/activity_add_scholarship_step1">
+
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <!--name of organisation wich publiched scholarship-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingBottom="50dp">
+                    <EditText
+                        android:id="@+id/OrganisationName_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/field_scholarship"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="@string/field_scholarship"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <!--phone of organisation wich publiched scholarship-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/organisationPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/field_phone_organisation"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="@string/Frais_formation"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <!--web address of organisation wich publiched scholarship-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/organisationweb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/field_adrrese_web"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="@string/field_adrrese_web"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <!--Description of organisation wich publiched scholarship-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/OrganisationDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:hint="@string/field_description_bourse"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="@string/field_email_organisation"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textMultiLine"
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <!--this code  allow to display image and text wihic clikable-->
+            <LinearLayout
+                android:id="@+id/imgbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--images for the scholarship -->
+                <ImageView
+                    android:id="@+id/preview"
+                    android:src="@drawable/ecole"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    />
+                <TextView
+                    android:id="@+id/txtClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="100dp"
+                   android:text="@string/txt_images_scholar"/>
+            </LinearLayout>
+
+                <Button
+                    android:id="@+id/valider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colorWhite"
+                    android:text="@string/Send"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

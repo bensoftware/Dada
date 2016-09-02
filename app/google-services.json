@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "18964247833",
+    "firebase_url": "https://bensoft-f6bd2.firebaseio.com",
+    "project_id": "bensoft-f6bd2",
+    "storage_bucket": "bensoft-f6bd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18964247833:android:6200f0a1a3dcce67",
+        "android_client_info": {
+          "package_name": "ga.bensoft.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18964247833-bmnkqbg7408jrrlu5he3ssit2fuijvoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc-z4p87Cdtj7xkKuiHWGc3QMYcm0ynaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18964247833:android:0b475093f1c20217",
+        "android_client_info": {
+          "package_name": "com.dada.ga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18964247833-bmnkqbg7408jrrlu5he3ssit2fuijvoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc-z4p87Cdtj7xkKuiHWGc3QMYcm0ynaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

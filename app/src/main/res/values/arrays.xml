@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_town">
+        <item>Libreville</item>
+        <item>Franceville</item>
+        <item>Port-Gentil</item>
+    </string-array>
+</resources>

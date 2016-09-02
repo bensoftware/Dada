@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colorWhite"
+    card_view:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/school_picture"
+            android:layout_marginLeft="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/img2" />
+
+        <TextView
+            android:id="@+id/school_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/school_picture"
+            android:text="Institut Africain d'Informatique (IAI)"
+            android:textColor="#4D6067"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/school_town"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/school_description"
+            android:layout_toRightOf="@+id/school_picture"
+            android:text="Libreville"
+            android:textColor="#4D6067"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/school_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/school_description"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/school_town"
+            android:text="(Université)"
+            android:textColor="#4D6067"
+            android:textSize="14dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/school_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/school_description"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@+id/school_category"
+            android:text="Detail"
+            android:textColor="@color/colorAccent"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</android.support.v7.widget.CardView>

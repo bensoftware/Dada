@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="app_name">Dada</string>
+    <string name="title_activity_schools">SchoolsActivity</string>
+    <string name="preprimaire">PREPRIMAIRE</string>
+    <string name="title_activity_swipe_image">SwipeImageActivity</string>
+    <string name="title_activity_swipe_image2">Liste des photos </string>
+    <string name="title_activity_inscription_activity_step1">InscriptionActivityStep1</string>
+    <string name="libelle_photocouvrture">Photo de couverture</string>
+    <string name="save">Enregistrer l\'établissement</string>
+
+    <!-- Strings related to login -->
+    <string name="field_scholarship">Nom de l\'organisation</string>
+    <string name="field_description_bourse">Description de la bourse</string>
+    <string name="field_email_organisation">Email</string>
+    <string name="field_phone_organisation">Télephone</string>
+
+    <string name="prompt_formation">Libelle de la formation</string>
+    <string name="prompt_categorie">Categorie</string>
+    <string name="prompt_telephone">Telephone</string>
+    <string name="prompt_nameschool">nom établissement</string>
+    <string name="prompt_Emails">Email</string>
+    <string name="prompt_adress">Quartier/Géolocalisation</string>
+    <string name="prompt_Description">Description</string>
+    <string name="Frais_çinscription">Password (optional)</string>
+    <string name="action_next_1">Suivant</string>
+    <string name="action_sign_ins">Sign in or register</string>
+    <string name="action_sign_in_shorts">Sign in</string>
+    <string name="error_invalid_emails">This email address is invalid</string>
+    <string name="error_invalid_number">Ce numere est invalide</string>
+    <string name="error_incorrect_passwords">This password is incorrect</string>
+    <string name="error_toas_connection">Serveur indisponible</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationales">"Contacts permissions are needed for providing email completions."
+    </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="Send">Valider</string>
+    <string name="txt_images_scholar">Inserer une image</string>
+    <string name="txt_visiteur">Visiteur</string>
+    <string name="txt_Publicateur">Publicateur</string>
+
+
+
+
+
+    <string name="Ret">Retrancher</string>
+    <string name="field_adrrese_web">Adresse du site web</string>
+    <string name="Frais_formation">Frais de formation</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+
+    <dimen name="media_spacing">10dp</dimen>
+    <string name="title_activity_inscription_activity_step2">Step2</string>
+    <string name="title_activity_inscription_activitystep2">Step2</string>
+    <string name="title_activity_scholarship">ScholarshipActivity</string>
+    <string name="title_activity_inscription_step3">Photo de couverture</string>
+    <string name="title_activity_competition">CompetitionActivity</string>
+    <string name="error_frais_formation">Renseignez le(s) frais de formation</string>
+    <string name="error_libelle_formation">Renseignez le libelle de la formation</string>
+    <string name="info_affiche_formation_vide">Veuillez insérer des élements dans la liste</string>
+    <string name="info_photos_school_empty">Vous devez associer des photos à votre Etablissement</string>
+    <string name="retryImageSelection">Recommencer</string>
+    <string name="error_service_indisponible">Le service est indisponible !!!</string>
+    <string name="error_field_email">entrez un email valide</string>
+    <string name="error_field_phone">Rensignez le numero de telephone</string>
+    <string name="error_field_quater">Rensignez l\'adresse</string>
+    <string name="error_field_description">Rensignez l\'adresse</string>
+    <string name="title_activity_add_scholarship_step1">AddScholarshipStep1Activity</string>
+
+</resources>

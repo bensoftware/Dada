@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/theme_secondary_text_inverted"
+    card_view:cardElevation="4dp"
+    android:id="@+id/cvc">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/photo_competition"
+            android:src="@drawable/emma"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description_competition"
+            android:layout_toRightOf="@+id/photo_competition"
+            android:layout_alignParentTop="true"
+            android:text="Institut Africain d'Informatique"
+            android:textSize="16dp"
+            android:textColor="#4D6067"
+
+            />
+        <!--TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ad_publish_date"
+            android:text="hbhhbhbhbhbbb"
+            android:layout_toRightOf="@+id/photo_competition"
+            android:layout_below="@+id/description_competition"
+            /-->
+        <!--TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ad_town"
+            android:layout_toRightOf="@+id/ad_publish_date"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/ad_description"
+            /-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
